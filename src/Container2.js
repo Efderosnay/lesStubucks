@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import background2 from './StubrewIcedCoffee.png';
+import background2 from './img/StubrewIcedCoffee.png';
 import arrow from './Icons/icon- angle-arrow-down-white.png';
 import './Container2.css';
 

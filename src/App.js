@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.png';
-import background from './StubucksHero.jpg';
+import logo from './img/logo.png';
+import background from './img/StubucksHero.jpg';
 import './App.css';
 import Container2 from './Container2';
 import Container3 from './Container3';

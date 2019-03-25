@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import arrow2 from "./Icons/icon-angle-arrow-down-green.png";
-import image1 from "./buyCoffee.jpg";
-import image2 from "./buyTea.jpg";
-import image3 from "./buyEquipment.png";
+import image1 from "./img/buyCoffee.jpg";
+import image2 from "./img/buyTea.jpg";
+import image3 from "./img/buyEquipment.png";
 import './Container3.css';
 
 class Container3 extends Component {
