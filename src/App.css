@@ -1,33 +1,96 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1.6fr 0.4fr;
+  grid-template-rows: 0.07fr 0.25fr 2.4fr;
+  grid-template-areas: 'banner gps' 'menu menu' 'container1 container1';
+ }
+ 
+ .banner { 
+   grid-area: banner; 
+   background-color: white;
+   height: 100%;
+  }
+ 
+ .gps { 
+   grid-area: gps; 
+   background-color: #007A4D;
+   height: 100%;
+  }
+  .menu{
+   grid-area: menu;
+   background-color: rgba(16, 16, 23, 0.947);
+   height: 100%; 
+   display: grid;
+  }
+ .menu-nav{
+  display: grid;
+  grid-template-columns: 0px 100px 100px 100px 100px 250px 100px 100px ;
+  grid-template-rows: 1fr;
+  grid-template-areas: '. . . . . . . .';
+  grid-gap: 1em;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+   margin: 0 auto;
+   max-width: 1720px;
+ }
+ 
+ .container1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: '.';
+  grid-area: container1;
+ }
+ .blankPage { 
+   grid-column: 1; 
+  }
+a{
+  text-decoration: none;
+}
+.coffeePage { 
+  grid-column: 2;
   color: white;
+  font-size: 20px; 
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.teaPage { 
+  grid-column: 3;
+  color: white;
+  font-size: 20px;
+ }
+.menu-itemPage { 
+  grid-column: 4;
+  color: white;
+  font-size: 20px;
+ }
+.rewardsPage { 
+  grid-column: 5;
+  color: white;
+  font-size: 20px;
+ }
+.joinPage { 
+  grid-column: 6;
+  color: white;
+  font-size: 20px;
+ }
+.locationsPage { 
+  grid-column: 7;
+  color: white;
+  font-size: 20px;
+ }
+.specialsPage { 
+  grid-column: 8;
+  color: white;
+  font-size: 20px;
+ }
+ .app-background{
+   width: 100vw;
+   height: auto;
+ }
+ .app-logo {
+  height: 150px;
+  position: absolute;
+  top: 7%;
+  left:2%;
 }
