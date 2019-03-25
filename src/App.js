@@ -8,6 +8,24 @@ import Container4 from './Container4';
 
 class App extends Component {
   render() {
+      let textStyle1 = {
+        position: 'absolute', 
+        top: '40%', 
+        left: '5%'
+      };
+      let textStyle2 = {
+        position: 'absolute', 
+        top: '55%', 
+        left: '5%'
+      };
+      let textStyle3 = {
+        position: 'absolute', 
+        top: '67%', 
+        left: '5%'
+      };
+      let colorW = {
+        color:'rgb(49, 113, 106)'
+      };
     return (
       <div className="App">
         <div className='grid-container'>
@@ -42,9 +60,13 @@ class App extends Component {
               </div>
             </nav>
         </div>
-        <div className='container1'>
-          <img src={background} className= "app-background" alt="background" />
-        </div>
+          
+          <div className='container1'>
+            <img src={background} className= "app-background" alt="background" />
+            <h1 style={textStyle1}><span style={colorW}>Love</span> your Stu</h1>
+            <h3 style={textStyle2}>Look at our range and choose the Stu that suits you.</h3>
+            <button style={textStyle3}>Choose your coffee</button>  
+          </div>
         </div>
         <Container2 />
         <Container3 />

@@ -26,7 +26,7 @@
 }
 .title1{
     color: rgba(16, 16, 23, 0.947);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 35px;
     display: flex; 
@@ -35,12 +35,13 @@
 }  
 .container2 { 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.8fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "background textContent";
-    height: 100%;
+    height: 90vh;
     background-color: rgba(16, 16, 23, 0.947);
     grid-area: container2;
+    grid-column-gap: 3em;
 }
 .background{
     grid-column: 1;
@@ -48,11 +49,14 @@
     grid-area: background;
 }
 .background2{
-    height: 90vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin:auto;
 }
 .textContent{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 0.9fr;
     grid-template-rows: 1.1fr 1.3fr 0.6fr;
     grid-template-areas: "." "." ".";
     grid-area: textContent;
@@ -61,21 +65,29 @@
 .title{
     grid-row: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
     color:white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 60px;
 }
-.description{
+.listDes{
     grid-row: 2;
     color:white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 33px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.listDes1{
+    text-align: end;
+}
+.listDes2{
+    text-align: end;
+}
+.listDes3{
+    text-align: end;
 }

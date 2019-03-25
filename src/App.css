@@ -23,17 +23,17 @@
    display: grid;
   }
  .menu-nav{
-  display: grid;
-  grid-template-columns: 0px 100px 100px 100px 100px 250px 100px 100px ;
-  grid-template-rows: 1fr;
-  grid-template-areas: '. . . . . . . .';
-  grid-gap: 1em;
-  align-items: center;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 700;
-   margin: 0 auto;
-   max-width: 1720px;
+    display: grid;
+    grid-template-columns: 0px 100px 100px 100px 100px 250px 100px 100px ;
+    grid-template-rows: 1fr;
+    grid-template-areas: '. . . . . . . .';
+    grid-gap: 1em;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0 auto;
+    max-width: 1720px;
  }
  
  .container1 {
@@ -42,6 +42,7 @@
   grid-template-rows: 1fr;
   grid-template-areas: '.';
   grid-area: container1;
+  height: 100vh;
  }
  .blankPage { 
    grid-column: 1; 
@@ -86,11 +87,31 @@ a{
  }
  .app-background{
    width: 100vw;
-   height: auto;
+   height: 100vh;
  }
  .app-logo {
   height: 150px;
   position: absolute;
   top: 7%;
   left:2%;
+}
+h1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+h3{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+button{
+  color: white;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  height:7vh;
+  width: 15vw;
+  font-size: 20px;
+  border-radius: 6%;
 }

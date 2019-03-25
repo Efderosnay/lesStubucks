@@ -11,9 +11,10 @@ class Container4 extends Component {
       return ( 
         <div className="grid-container4">   
             <div className="container4">
+            <div className="nothing"></div>
                 <div className="helpDetails">
                     <div className="helpTitle">Help</div>
-                    <ul>
+                    <ul className="list1">
                     <li>My account</li>
                     <li>Stu Cards</li>
                     <li>Stu Rewards</li>
@@ -24,7 +25,7 @@ class Container4 extends Component {
                 </div>
                 <div className="aboutUs">
                 <div className="aboutTitle">About Us</div>
-                <ul>
+                <ul className="list1">
                     <li>Join Stu</li>
                     <li>Social Responsibility</li>
                     <li>Our People</li>
@@ -34,7 +35,7 @@ class Container4 extends Component {
                 <div className="blank0"></div>
                 <div className="companyInfo">
                 <div className="comInfoTitle">Company Info</div>
-                <ul>
+                <ul className="list1">
                     <li>Code Ethics</li>
                     <li>Responsible Sourcing</li>
                     <li>Supply Chain</li>
@@ -67,9 +68,9 @@ class Container4 extends Component {
                 </div>
                 <div className="textRight">
                     <ol>
-                        <li>Stubucks Coffee | Privacy Policy | Terms of Service </li>
+                        <li className="line1">Stubucks Coffee | Privacy Policy | Terms of Service </li>
                         <li>Stubucks is not a registered trademark, infact it was just something Stuart made Dan make even though he didn’t have any spare</li>
-                        <li>time. But he likes designing stuff so that’s OK </li>
+                        <li className="line1">time. But he likes designing stuff so that’s OK </li>
                     </ol>
                 </div>
             </div>

@@ -5,10 +5,13 @@ import './Container2.css';
 
 class Container2 extends Component {
     render() {
+        let colorW = {
+            color:'rgb(49, 113, 106)'
+          };
       return (
             <div className="grid-container2">
                 <div className="newProductTitle">
-                    <div className="title1"> Try something new? </div>
+                    <div className="title1"> Try something <span style={colorW}>new</span> ? </div>
                 </div>
                 <div className="arrow">
                 <img src={arrow} className="arrow1" alt="arrow" />
@@ -18,11 +21,13 @@ class Container2 extends Component {
                         <img src={background2} className= "background2" alt="background2" />
                     </div>
                     <div className="textContent">
-                        <div className="title">The new StuBrew</div>
+                        <div className="title">The new <span style={colorW}>Stubru</span> </div>
                         <div className="description">
-                            A delicious new nitro brew developed 
-                            carefully on the darkside of the moon,
-                            instilled with the freshness of Stu himself.
+                            <ul className="listDes">
+                                <li className="listDes1">A delicious <span style={colorW}>new nitro</span> brew developed</li>
+                                <li className="listDes2">carefully on the darkside of the moon,</li>
+                                <li className="listDes3">instilled with the freshness of Stu himself.</li>
+                            </ul>    
                         </div>
                     </div>
                 </div>

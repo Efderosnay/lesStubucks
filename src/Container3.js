@@ -7,10 +7,13 @@ import './Container3.css';
 
 class Container3 extends Component {
     render() {
+        let colorW = {
+            color:'rgb(33, 57, 54)'
+          };
       return ( 
             <div className="grid-container3">
                 <div className="shopTitle">
-                    <div className="title2"> The Stu Shop </div>
+                    <div className="title2"> The Stu <span style={colorW}>Shop</span> </div>
                 </div>
                 <div className="arrow2">
                     <img src={arrow2} className="arrowImg2" alt="arrow2" />
