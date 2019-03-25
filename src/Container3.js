@@ -34,11 +34,20 @@ class Container3 extends Component {
                     <div className="textEquipment">     
                         <div className="equipmentTitle">Shop Equipment</div>
                     </div>
+                    <div className="coffeeLine">
+                        <div className="line1"> <hr/></div>
+                    </div>
+                    <div className="teaLine">
+                        <div className="line1"><hr/></div>
+                    </div>
+                    <div className="equipLine">
+                        <div className="line1"><hr/></div>
+                    </div>
                     <div className="DescripCoffee">
                         <div className="coffeeText">Hand-roasted coffee, delivered fresh for ultimate flavour.</div>
                     </div>
                     <div className="DescripTea">
-                        <div className="teaText">Our finest selection of premium whole leaf tea</div>
+                        <div className="teaText">Our finest selection of premium whole leaf tea.</div>
                     </div>
                     <div className="DescripEquip">
                         <div className="equipText">Brewers and presses for making the perfect Stu at home.</div>
