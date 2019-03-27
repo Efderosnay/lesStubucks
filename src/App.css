@@ -1,3 +1,25 @@
+
+/* converted gilroy into webfonts and added them below. */
+@font-face {
+  font-family: 'gilroy-extrabold';
+  src: url(./fonts/gilroy-extrabold-webfont.woff2) format('woff2'),
+       url(./fonts/gilroy-extrabold-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'gilroy-light';
+  src: url(./fonts/gilroy-light-webfont.woff2) format('woff2'),
+       url(./fonts/gilroy-light-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ------------------ webfonts above -------------------- */
+
+
 .grid-container {
   display: grid;
   grid-template-columns: 1.6fr 0.4fr;
@@ -30,7 +52,7 @@
     grid-gap: 1em;
     align-items: center;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'gilroy-extrabold', sans-serif;
     font-weight: 700;
     margin: 0 auto;
     max-width: 1720px;
@@ -97,21 +119,22 @@ a{
 }
 h1{
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'gilroy-extrabold', sans-serif;
   font-size: 70px;
   font-weight: bold;
 }
 h3{
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'gilroy-extrabold', sans-serif;
   font-size: 25px;
 }
 button{
   color: white;
   background-color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'gilroy-light', sans-serif;
   height:7vh;
   width: 15vw;
   font-size: 20px;
   border-radius: 6%;
 }
+

@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'gilroy-extrabold';
+    src: url(./fonts/gilroy-extrabold-webfont.woff2) format('woff2'),
+         url(./fonts/gilroy-extrabold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'gilroy-light';
+    src: url(./fonts/gilroy-light-webfont.woff2) format('woff2'),
+         url(./fonts/gilroy-light-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 .grid-container4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1.4fr;
@@ -33,7 +50,7 @@
 }  
 .helpTitle{
     color: rgba(16, 16, 23, 0.947);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'gilroy-extrabold', sans-serif;
     font-weight: 700;
     font-size: 30px;
 }
@@ -43,7 +60,7 @@
 }  
 .aboutTitle{
     color: rgba(16, 16, 23, 0.947);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'gilroy-extrabold', sans-serif;
     font-weight: 700;
     font-size: 30px;    
 }
@@ -57,7 +74,7 @@
 } 
 .comInfoTitle{
     color: rgba(16, 16, 23, 0.947);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'gilroy-extrabold', sans-serif;
     font-weight: 700;
     font-size: 30px;
 }
@@ -75,7 +92,7 @@
 }  
 .shareTitle{
     color: rgba(16, 16, 23, 0.947);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'gilroy-extrabold', sans-serif;
     font-weight: 700;
     font-size: 30px;
 }
@@ -89,7 +106,7 @@
 }
 ul{
     list-style: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'gilroy-light', sans-serif;
     font-size: 20px;
     padding: 0;
 }
@@ -116,7 +133,7 @@ ul{
 }
 ol{
     list-style: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'gilroy-light', sans-serif;
     font-size: 16px;
     padding: 0;
     color: white;

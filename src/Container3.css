@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'gilroy-extrabold';
+    src: url(./fonts/gilroy-extrabold-webfont.woff2) format('woff2'),
+         url(./fonts/gilroy-extrabold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'gilroy-light';
+    src: url(./fonts/gilroy-light-webfont.woff2) format('woff2'),
+         url(./fonts/gilroy-light-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 .grid-container3 {
     display: grid;
     grid-template-columns: 1fr;
@@ -26,7 +43,7 @@
 }
 .title2{
     color:white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'gilroy-extrabold', sans-serif;
     font-weight: 700;
     font-size: 35px;
     display: flex; 
@@ -64,7 +81,7 @@ hr{
 .coffeeTitle{
     grid-row: 2;
     color: rgba(16, 16, 23, 0.947);
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'gilroy-extrabold', sans-serif;
     font-weight: 700;
     font-size: 35px;
     display: flex;
@@ -74,7 +91,7 @@ hr{
 .coffeeText{
     grid-row: 3;
     color: rgba(16, 16, 23, 0.947);
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'gilroy-light', sans-serif;
     font-size: 18px;
     text-align: center;
     padding:0 120px;
@@ -93,7 +110,7 @@ hr{
 }
 .teaTitle{
     color: rgba(16, 16, 23, 0.947);
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'gilroy-extrabold', sans-serif;
     font-weight: 700;
     font-size: 35px;
     display: flex;
@@ -101,7 +118,7 @@ hr{
 }
 .teaText{
     color: rgba(16, 16, 23, 0.947);
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'gilroy-light', sans-serif;
     font-size: 18px;
     text-align: center;
     padding:0 125px;
@@ -119,7 +136,7 @@ hr{
 }
 .equipmentTitle{
     color: rgba(16, 16, 23, 0.947);
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'gilroy-extrabold', sans-serif;
     font-weight: 700;
     font-size: 35px;
     display: flex;
@@ -127,7 +144,7 @@ hr{
 }
 .equipText{
     color: rgba(16, 16, 23, 0.947);
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'gilroy-light', sans-serif;
     font-size: 18px;
     text-align: center;
     padding:0 115px;  
