@@ -5,6 +5,7 @@ import './App.css';
 import Container2 from './Container2';
 import Container3 from './Container3';
 import Container4 from './Container4';
+import CoffeeForm from './coffeeForm';
 
 class App extends Component {
   render() {
@@ -70,6 +71,7 @@ class App extends Component {
         </div>
         <Container2 />
         <Container3 />
+        <CoffeeForm/>
         <Container4 />
       </div>
 

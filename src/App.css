@@ -17,8 +17,6 @@
   font-style: normal;
 }
 
-/* ------------------ webfonts above -------------------- */
-
 
 .grid-container {
   display: grid;
@@ -109,7 +107,7 @@ a{
  }
  .app-background{
    width: 100vw;
-   height: 100vh;
+   height: auto;
  }
  .app-logo {
   height: 150px;
